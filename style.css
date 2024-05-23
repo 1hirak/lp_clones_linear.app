@@ -1,12 +1,10 @@
-body{
+body {
     background-color: #161618;
 }
 
 header {
     background-color: #000032;
     height: 48px;
-    /* display: flex; */
-    
 }
 
 nav {
@@ -15,16 +13,16 @@ nav {
     justify-content: center;
     align-items: baseline;
     margin: auto;
-    
+
 }
 
-nav li {
+nav ul li {
     list-style-type: none;
     padding-right: 20px;
 
 }
 
-nav li a {
+nav ul li a {
     text-decoration: none;
     color: #f7f8f8;
     text-transform: capitalize;
@@ -32,19 +30,7 @@ nav li a {
     align-items: center;
 }
 
-.align_center{
+.align_center {
     display: flex;
     align-items: center;
 }
- .test {
-    display: block;
- }
-
- nav>li>img {
-    object-fit: cover;
-    height: inherit;
- }
- /* .test>a img {
-    display: block;
-    height: 24px;
- } */
